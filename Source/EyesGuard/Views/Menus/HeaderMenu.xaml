@@ -70,10 +70,7 @@
             <Separator />
             <MenuItem Click="Feedback_Menu_Click" Header="{lang:LocalizedString 'EyesGuard.HeaderMenu.Help.SendFeedback'}" Icon="{StaticResource EyesGuard.Feedback}" />
             <Separator/>
-            <MenuItem
-                Click="Donate_Click"
-                Header="{lang:LocalizedString 'EyesGuard.HeaderMenu.Help.Donate'}"
-                Icon="{StaticResource EyesGuard.Donate}" />
+
             <Separator />
 
             <MenuItem Click="About_Click" Header="{lang:LocalizedString 'EyesGuard.HeaderMenu.Help.About'}" />
