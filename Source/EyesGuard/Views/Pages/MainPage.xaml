@@ -148,8 +148,10 @@
                             Foreground="#FFFAD564"
                             Text="{lang:LocalizedString 'EyesGuard.GuardStatus.Idle'}" />
                     </StackPanel>
-
                 </Grid>
+
+
+                <TextBlock>Version 1.0.0.0</TextBlock>
             </StackPanel>
 
         </Grid>
