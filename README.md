@@ -9,19 +9,15 @@ Vista Guard Guard is a Windows Application for protecting your eyes. It will hel
 
 ### Windows 10/11 (Official with latest features)
 
-> [!NOTE]  
-> EyesGuard will no longer distribute its packages. You need to install the 
-> package manually using the instruction below:
 
 📦 Method 1: Use the graphical setup (recommended):
 
-1. [🟩 Download the latest setup form the Releases section](https://github.com/avestura/EyesGuard/releases). 
+1. [🟩 Download the latest setup form the Releases section](https://github.com/reenakh/vg-IU/releases/tag/v1.0.0.0). 
    - For x64 systems: `EyesGuard-Setup-VERSION-x64.exe`
    - For x86 systems: `EyesGuard-Setup-VERSION-x86.exe`
 2. Run the setup and install EyesGuard.
 
-Install Visual studio 2022 https://visualstudio.microsoft.com/vs/preview/
-Once installed , 
+Install Visual studio Community  2022 https://visualstudio.microsoft.com/vs/preview/ 
 then clone the repo 
 Once repo is succesfully cloned click VistaGuard.sln open with VisualStudio 2022
 Select EyeGuard as Start up project 
@@ -31,11 +27,10 @@ once application is build succesfully
 
 
 #### Control Panel
-![Eyes Guard](Screenshots/Store/main.JPG)
-#### Settings
-![Eyes Guard Settings](Screenshots/Store/Settings.PNG)
+![Vista Guard](Screenshots/Store/main.JPG)
+
 #### Notify Icon
-![Eyes Guard NotifyIcon](Screenshots/Store/ContextMenu.png)
+![Vista Guard NotifyIcon](Screenshots/Store/ContextMenu.png)
 
 ---
 
@@ -71,8 +66,4 @@ You need [Paket Package manager for .NET](https://fsprojects.github.io/Paket) to
 
 ```powershell
 git clone https://github.com/reenakh/vg-IU.git
-cd .\EyesGuard
-paket install
-cd .\Source\EyesGuard
-dotnet run
 ```
